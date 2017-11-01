@@ -1,6 +1,6 @@
 {
-  "name": "lemon2",
-  "version": "1.0.0",
+  "name": "lemon",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,8 @@
   },
   "devDependencies": {
     "jshint": "2.9.5"
+  },
+  "engines": {
+    "node": "8.9.0"
   }
 }

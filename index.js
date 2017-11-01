@@ -30,6 +30,8 @@ init().then(_db => {
 	console.log(err);
 });
 
+// setup API
+
 app.post('/bookmark', (req, res, next) => {
 	collection.insert(req.body).then(result => {
 		res.send(result);
